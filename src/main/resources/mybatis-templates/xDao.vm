@@ -1,0 +1,10 @@
+package ${package.Mapper};
+
+import ${package.Entity}.${entity};
+import com.porsche.panamera.core.common.base.BaseDao;
+import org.springframework.stereotype.Component;
+
+@Component
+public interface ${entity}Dao extends BaseDao<${entity}> {
+
+}
